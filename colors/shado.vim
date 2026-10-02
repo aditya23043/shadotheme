@@ -219,7 +219,7 @@ highlight ColorColumn guibg=#2f3037
 highlight QuickFixLine guifg=#bd93f9 guibg=#1b1b29 gui=bold
 highlight StatusLine guifg=#1b1b29 guisp=#35355e guibg=#a8899c gui=bold
 highlight StatusLineNC guifg=#1b1b29 guisp=#35355e guibg=#505079
-highlight VertSplit guifg=#35355e
+highlight VertSplit guibg=#bd93f9 guifg=#1b1b29
 highlight WinSeparator guifg=#505079
 highlight WildMenu guifg=#eed6ee guibg=#5d5daf
 highlight DiffAdd guifg=#37d4a7 guisp=#2c9465
