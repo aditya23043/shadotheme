@@ -104,8 +104,9 @@ augroup shadotheme_normal_bg
 augroup END
 
 highlight SignColumn guibg=#111119 ctermbg=NONE
-highlight LineNr guifg=#505079 guibg=#111119 ctermbg=NONE
+highlight LineNr guifg=#333339 guibg=#111119 ctermbg=NONE
 highlight CursorLineNr guifg=#edeff0 guibg=#111119 ctermbg=NONE
+hi CursorLineNr guifg=#555559 cterm=NONE
 highlight DiagnosticUnderlineError guisp=#ac2958
 highlight DiagnosticUnderlineWarn guisp=#F18FB0
 highlight DiagnosticUnderlineInfo guisp=#fca1e7
@@ -194,12 +195,13 @@ highlight TodoNorm guifg=#cba6f7
 highlight Normal guifg=#dfb7e8
 highlight Cursor guifg=#dfb7e8 guibg=#6161b3 guisp=#6161b3
 highlight CursorLine guibg=#1b1b29 guisp=#6161b3
+hi CursorLine guifg=NONE guibg=#16161e cterm=NONE
 highlight CursorColumn guibg=#1b1b29 guisp=#6161b3
 highlight Search guibg=#dabaff guifg=#000000 gui=bold
 highlight IncSearch guibg=#8677d9 guisp=#8897F4 gui=bold
 highlight Visual guibg=#262440 ctermbg=NONE
 highlight EndOfBuffer guifg=#E9729D
-highlight Folded guifg=#53606e guibg=#171526
+highlight Folded guifg=#444449 guibg=#181820
 highlight FoldColumn guifg=#6161b3
 highlight MatchWord guifg=#0f5bca
 highlight MatchParen guifg=#8be9fd
@@ -226,7 +228,7 @@ highlight DiffAdd guifg=#37d4a7 guisp=#2c9465
 highlight DiffChange guifg=#2f77a1 guisp=#2f77a1
 highlight DiffDelete guifg=#de286e guisp=#c9083f
 highlight DiffText guifg=#e3d3eb guibg=#4d254d guisp=#4d254d
-highlight Comment guifg=#505079 
+highlight Comment guifg=#333339
 highlight DocComment guifg=#5d5daf
 highlight Conceal guifg=#6272a4
 highlight Special guifg=#5d5daf
@@ -271,7 +273,8 @@ highlight SpellBad gui=undercurl guisp=#5d5daf
 highlight SpellCap gui=undercurl guisp=#5d5daf
 highlight SpellLocal gui=undercurl guisp=#5d5daf
 highlight SpellRare gui=undercurl guisp=#5d5daf
-highlight Pmenu guifg=#8677d9 guibg=#1b1b29
+hi Pmenu guibg=#17171f guifg=#dfb7e8
+hi CocMenuSel guibg=#dfb7e8 guifg=#000000
 highlight PmenuSbar guifg=#a883a8
 highlight PmenuSel guibg=#8677d9 guifg=#000000 gui=bold gui=underline guisp=#bd93f9
 highlight PmenuThumb guibg=#1b1b29
